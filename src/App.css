@@ -1,4 +1,15 @@
 /* GENERALS / RESETS */
+
+@font-face {
+    font-family: "poppins-rg";
+    src: url(./assets/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins-bd";
+    src: url(./assets/font/Poppins-Bold.ttf);
+}
+
 *
 {
     box-sizing: border-box;
@@ -8,6 +19,7 @@
 
 body
 {
+    font-family: "poppins-rg";
     background-color: #23283e;
 }
 
@@ -19,6 +31,7 @@ h3
 h1, h2, h3
 {
     color: #cdcdff;
+    font-family: "poppins-bd";
 }
 
 p, a
