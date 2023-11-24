@@ -1,12 +1,13 @@
-nav
+.navbar
 {
     display: flex;
+    width: 98vw;
     background-color: #23283e;
     padding: 40px 15%;
     justify-content: space-between;
 }
 
-nav > a
+.navbar > a
 {
     text-decoration: none;
     font-size: 1.3rem;
@@ -15,14 +16,14 @@ nav > a
     align-self: center;
 }
 
-nav ul
+.navbar ul
 {
     display: flex;
     gap: 24px;
     list-style: none;
 }
 
-nav ul li a
+.navbar ul li a
 {
     font-size: 1.125rem;
     color: #cdcdff;
