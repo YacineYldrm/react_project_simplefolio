@@ -1,5 +1,5 @@
 import Button from '../Button/Button';
-import './Footer.css'
+import './Footer.scss'
 
 const Footer = () => {
     return ( 
@@ -7,7 +7,7 @@ const Footer = () => {
             <h2>CONTACT</h2>
             <Button 
             buttonText="email me"/>
-            <p>Created by John Smith</p>
+            <a href="#" className='created'>Created by John Smith</a>
         </footer>
     );
 }

@@ -1,4 +1,4 @@
-import './ProjectCard.css'
+import './ProjectCard.scss'
 
 const ProjectCard = (props) => {
     return (

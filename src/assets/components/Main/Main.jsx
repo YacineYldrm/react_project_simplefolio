@@ -1,6 +1,6 @@
 import ProjectsContainer from '../ProjectContainer/ProjectsContainer';
 import SkillsContainer from '../SkillsContainer/SkillsContainer';
-import './Main.css'
+import './Main.scss'
 
 const Main = () => {
     return ( 

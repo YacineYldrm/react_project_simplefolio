@@ -1,5 +1,5 @@
 import ProjectCard from "../ProjectCard/ProjectCard";
-import './ProjectsContainer.css'
+import './ProjectsContainer.scss'
 
 
 const ProjectsContainer = () => {

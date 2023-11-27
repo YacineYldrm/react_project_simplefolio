@@ -1,6 +1,6 @@
 import Nav from './../Nav/Nav'
 import Button from '../Button/Button'
-import './Header.css'
+import './Header.scss'
 
 const Header = () =>{
     return(
