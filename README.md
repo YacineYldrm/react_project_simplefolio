@@ -7,13 +7,15 @@ A practical project for Supercode Fullstack Web-Dev Bootcamp. The first day Reac
 - creating multiple components (modular structure)
 - styling multiple components
 
-##Demo Link
+## Demo Link
+
 https://cerulean-beignet-efdaac.netlify.app/
 
-##Screenshots 📸
+## Screenshots 📸
+
 ![Screenshot Desktop Version of page](./public/react_simplefolio_sc.png)
 
-##Tech Stack 💻
+## Tech Stack 💻
 
 Client:
 
