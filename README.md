@@ -1,8 +1,29 @@
-# React + Vite
+# React JS Poject: Simplefolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A practical project for Supercode Fullstack Web-Dev Bootcamp. The first day React JS
 
-Currently, two official plugins are available:
+- working with components.
+- structuring and organizing a React page (Where are redundancies?Where can I reuse a component?)
+- creating multiple components (modular structure)
+- styling multiple components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Demo Link
+https://cerulean-beignet-efdaac.netlify.app/
+
+##Screenshots 📸
+![Screenshot Desktop Version of page](./public/react_simplefolio_sc.png)
+
+##Tech Stack 💻
+
+Client:
+
+- react
+- CSS
+- vite
+- JavaScript
+- GIT
+
+Server:
+
+- GitHub
+- netlify
