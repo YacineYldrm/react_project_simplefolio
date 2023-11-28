@@ -1,13 +1,8 @@
 import './Nav.scss'
 import DarkMode from '../svg/DarkMode';
 
-const Nav = ({getter, setDarkMode}) =>{
+const Nav = ({setDarkMode}) =>{
 
-    const switchModeBtn = () =>
-    {
-        console.log("Nav", getter);
-        setDarkMode((state) => !state)
-    }
     return(
         <nav className='navbar'>
             <a className='logo' href="#">JS.</a>
@@ -23,7 +18,7 @@ const Nav = ({getter, setDarkMode}) =>{
                         <a href="#">contact</a>
                     </li>
                 </ul>
-                <div onClick={switchModeBtn}>
+                <div onClick={() => setDarkMode((state) => !state)}>
                     <DarkMode/>
                 </div>
             </div>
