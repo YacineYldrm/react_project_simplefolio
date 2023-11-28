@@ -1,0 +1,34 @@
+.headerContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    
+    h1
+    {
+        font-size: 3rem;
+    }
+    
+    p
+    {
+        width: 30vw;
+        text-align: center;
+    }
+
+    .social-media_icons_wrapper
+    {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+
+        svg
+        {
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+

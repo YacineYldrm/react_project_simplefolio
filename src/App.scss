@@ -17,10 +17,143 @@
     margin: 0;
 }
 
+:root {
+    --main-color-dark: #cdcdff;
+    --text-color-dark: #bdbddd;
+    --accent-color-dark: #90a0d9;
+    --main-bgColor-dark: #23283e;
+    --second-bgColor-dark: #2a2f4c;
+    --main-color-bright: #444;
+    --text-color-bright: #444;
+    --accent-color-bright: #2978b5;
+    --main-bgColor-bright: #fff;
+    --second-bgColor-bright: #fff;
+}
+
+.darkModeOff
+{
+    h1,h2,h3
+    {
+        color: var(--main-color-bright);
+        span
+        {
+            color: var(--accent-color-bright);
+        }
+    }
+
+    .logo {
+        color: var(--accent-color-bright);
+    }
+
+    p, a
+    {
+        color: var(--text-color-bright);
+    }
+
+    svg path
+    {
+        fill: var(--main-color-bright);
+    }
+
+    .navbar .nav_list_wrapper ul li a::after 
+    {
+        background-color: var(--main-color-bright);
+    }
+
+    .button
+    {
+        border: 1px solid var(--accent-color-bright);
+        color: var(--accent-color-bright);
+        &:hover 
+        {
+            color: var(--main-bgColor-bright);
+        }
+
+        &::before
+        {
+            background: var(--accent-color-bright);
+        }
+    }
+
+    .skillsContainer div a
+    {
+        background-color: var(--main-bgColor-bright);
+    }
+
+    .footerContainer
+    {
+        .created::after
+        {
+            background-color: var(--main-color-bright);
+        }
+
+    }
+}
+
+.darkModeOn
+{
+    h1,h2,h3
+    {
+        color: var(--main-color-dark);
+        span
+        {
+            color: var(--accent-color-dark);
+        }
+    }
+
+    .logo {
+        color: var(--accent-color-dark);
+    }
+
+    p, a
+    {
+        color: var(--text-color-dark);
+    }
+
+    svg path
+    {
+        fill: var(--main-color-dark);
+    }
+
+    .navbar .nav_list_wrapper ul li a::after 
+    {
+        background-color: var(--main-color-dark);
+    }
+
+    .button
+    {
+        border: 1px solid var(--accent-color-dark);
+        color: var(--main-color-dark);
+        &:hover 
+        {
+            color: var(--main-bgColor-dark);
+        }
+
+        &::before
+        {
+            background: var(--main-color-dark);
+        }
+    }
+
+    .skillsContainer div a
+    {
+        background-color: var(--main-bgColor-dark);
+    }
+
+    .footerContainer
+    {
+        .created::after
+        {
+            background-color: var(--main-color-dark);
+        }
+
+    }
+}
+
+
 body
 {
     font-family: "poppins-rg";
-    background-color: #23283e;
 }
 
 h3
@@ -30,13 +163,7 @@ h3
 
 h1, h2, h3
 {
-    color: #cdcdff;
     font-family: "poppins-bd";
-}
-
-p, a
-{
-    color: #bdbddd;
 }
 
 a
